@@ -1,27 +1,27 @@
 
   # Title
-  readme generator
+  Readme generator
 
-  # Description
-  generates a readme from the cli
+  ## Description
+  generate readme file
 
-  # Table of Contents
+  ## Table of Contents
   {:toc}
 
-  # Installation
-  run node
+  ## Installation
+  run node cli
 
-  # Usage
-  N/a
+  ## Usage
+  N/A
 
-  # License
+  ## License
   MIT
 
-  # Contributing
-  yes
-
-  # Tests
+  ## Contributing
   no
 
-  # Questions
+  ## Tests
+  No
+
+  ## Questions
   no
