@@ -7,11 +7,10 @@
   quickly creates a README for a new project
 
   ## Table of Contents  
-  [Installation](#Installation)  
-  [Usage](#Usage)  
+  [Installation](#Installation)    
   [License](#License)  
   [Contributing](#Contributing)  
-  [Tests](#Tests)  
+  [Demo](#Demo)  
   [Questions](#Questions)  
    
 
@@ -28,7 +27,7 @@
   ## Contributing
   No
 
-  ## demo
+  ## Demo
 
   ![cli demo](project.png)
 
