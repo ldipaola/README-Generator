@@ -75,8 +75,9 @@ function generateMD(answers) {
 
   ## Description
   ${answers.description}
-  ${license}
   
+  ${license}
+
   ## Table of Contents  
   [Installation](#Installation)  
   [Usage](#Usage)  
@@ -104,8 +105,8 @@ function generateMD(answers) {
   ${answers.tests}
 
   ## Questions
-  ${answers.github}
-  ${answers.email}
+  Github: ${answers.github}
+  Email: ${answers.email}
 `;
 }
 
