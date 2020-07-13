@@ -1,10 +1,11 @@
 
   # Title
-  My Project
+  my readme generator
 
   ## Description
-  My node project
-
+  Generates a readme file from user input using node cli
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
   ## Table of Contents  
   [Installation](#Installation)  
   [Usage](#Usage)  
@@ -17,16 +18,16 @@
 
 
   ## Installation
-  run from node cli
+  node cli
 
   ## Usage
-  However you like
+  N/A
 
   ## License
   MIT
 
   ## Contributing
-  Yes
+  No
 
   ## Tests
   No

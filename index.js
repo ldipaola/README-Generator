@@ -31,7 +31,7 @@ function promptUser() {
       type: "list",
       name: "license",
       message: "License:",
-      choices: ["MIT", "Apache-2.0", "GPL-3.0", "BSD-2-Clause", "BSD-3-Clause", "BSD-4-Clause"]
+      choices: ["MIT", "Apache-2.0", "GPL-3.0", "BSD-2-Clause", "BSD-3-Clause"]
     },
     {
       type: "input",
@@ -57,13 +57,26 @@ function promptUser() {
 }
 
 function generateMD(answers) {
+    let license = ""
+  if (answers.license === "MIT" ) {
+        license = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+  } else if (answers.license === "Apache-2.0"){
+         license = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+  } else if (answers.license === "GPL-3.0") {
+    license = "[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)"
+  } else if (answers.license === "BSD-2-Clause") {
+    license = "[![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)"
+  } else if (answers.license === "BSD-3-Clause") {
+    license = "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
+  } 
   return `
   # Title
   ${answers.title}
 
   ## Description
   ${answers.description}
-
+  ${license}
+  
   ## Table of Contents  
   [Installation](#Installation)  
   [Usage](#Usage)  
