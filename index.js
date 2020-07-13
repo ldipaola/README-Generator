@@ -45,8 +45,13 @@ function promptUser() {
     },
     {
       type: "input",
-      name: "questions",
-      message: "Questions:"
+      name: "github",
+      message: "Git Hub Account:"
+    },
+    {
+      type: "input",
+      name: "email",
+      message: "Email:"
     }
   ]);
 }
@@ -86,7 +91,8 @@ function generateMD(answers) {
   ${answers.tests}
   <a name="questions"/>
   ## Questions
-  ${answers.questions}
+  ${answers.github}
+  ${answers.email}
 `;
 }
 
