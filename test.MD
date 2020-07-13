@@ -1,11 +1,11 @@
 
   # Title
-  readme Generator
+  My Project
 
   ## Description
-  generate a readme file
+  My node project
 
-  ##### Table of Contents  
+  ## Table of Contents  
   [Installation](#Installation)  
   [Usage](#Usage)  
   [License](#License)  
@@ -17,16 +17,16 @@
 
 
   ## Installation
-  nmp i run from node cli
+  run from node cli
 
   ## Usage
-  N/A
+  However you like
 
   ## License
   MIT
 
   ## Contributing
-  No
+  Yes
 
   ## Tests
   No

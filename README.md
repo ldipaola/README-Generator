@@ -28,6 +28,10 @@
   ## Contributing
   No
 
+  ## demo
+
+  ![cli demo](project.png)
+
 
   ## Questions
   ldipaola
