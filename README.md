@@ -19,7 +19,7 @@
 
   ## Installation
 
-  * Run nmp i run node cli
+  * Run npm i run node cli
   * Run index.js from node cli
 
   ## License
