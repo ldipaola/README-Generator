@@ -1,11 +1,12 @@
 
   # Title
-  my readme generator
+  My Readme generator
 
   ## Description
-  Generates a readme file from user input using node cli
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  Generated a readme file from user input
   
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
   ## Table of Contents  
   [Installation](#Installation)  
   [Usage](#Usage)  
@@ -18,7 +19,7 @@
 
 
   ## Installation
-  node cli
+  run from node cli
 
   ## Usage
   N/A
@@ -33,5 +34,5 @@
   No
 
   ## Questions
-  ldipaola
-  ldipaola66@gmail.com
+  Github: ldipaola
+  Email: ldipaola66@hmail.com
