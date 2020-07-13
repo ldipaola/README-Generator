@@ -56,28 +56,28 @@ function generateMD(answers) {
   # Title
   ${answers.title}
 
-  # Description
+  ## Description
   ${answers.description}
 
-  # Table of Contents
+  ## Table of Contents
   {:toc}
 
-  # Installation
+  ## Installation
   ${answers.installation}
 
-  # Usage
+  ## Usage
   ${answers.usage}
 
-  # License
+  ## License
   ${answers.license}
 
-  # Contributing
+  ## Contributing
   ${answers.contributing}
 
-  # Tests
+  ## Tests
   ${answers.tests}
 
-  # Questions
+  ## Questions
   ${answers.questions}
 `;
 }
