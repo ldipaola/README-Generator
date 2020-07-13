@@ -1,35 +1,36 @@
 
   # Title
-  readme generator
+  readme Generator
 
   ## Description
   generate a readme file
 
-  ## Table of Contents  
-  [Installation](##installation)  
-  [Usage](##usage)  
-  [License](##license)  
-  [Contributing](##contributing)  
-  [Tests](##tests)  
-  [Questions](##questions)  
+  ##### Table of Contents  
+  [Installation](#Installation)  
+  [Usage](#Usage)  
+  [License](#License)  
+  [Contributing](#Contributing)  
+  [Tests](#Tests)  
+  [Questions](#Questions)  
+   
 
 
 
-  
   ## Installation
-  run from cli
-  
+  nmp i run from node cli
+
   ## Usage
   N/A
-  
+
   ## License
   MIT
-  
+
   ## Contributing
-  no
+  No
 
   ## Tests
-  no
- 
+  No
+
   ## Questions
-  no
+  ldipaola
+  ldipaola66@gmail.com
