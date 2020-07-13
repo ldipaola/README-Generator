@@ -30,8 +30,8 @@ function promptUser() {
     {
       type: "list",
       name: "license",
-      message: "How to install:",
-      choices: ["MIT", "Apache", "GPL"]
+      message: "License:",
+      choices: ["MIT", "Apache-2.0", "GPL-3.0", "BSD-2-Clause", "BSD-3-Clause", "BSD-4-Clause"]
     },
     {
       type: "input",
