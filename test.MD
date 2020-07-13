@@ -12,24 +12,24 @@
   [Contributing](#contributing)  
   [Tests](#tests)  
   [Questions](#questions)  
-  ...snip...
 
 
-  <a name="installation"/>
+
+  <a name="installation">
   ## Installation
   run from cli
-  <a name="usage"/>
+  <a name="usage">
   ## Usage
   N/A
-  <a name="license"/>
+  <a name="license">
   ## License
   MIT
-  <a name="contributing"/>
+  <a name="contributing">
   ## Contributing
   no
-  <a name="tests"/>
+  <a name="tests">
   ## Tests
   no
-  <a name="questions"/>
+  <a name="questions">
   ## Questions
   no
