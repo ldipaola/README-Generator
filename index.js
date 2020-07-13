@@ -59,24 +59,32 @@ function generateMD(answers) {
   ## Description
   ${answers.description}
 
-  ## Table of Contents
-  {:toc}
+  ##### Table of Contents  
+  [Installation](#installation)  
+  [Usage](#usage)  
+  [License](#license)  
+  [Contributing](#contributing)  
+  [Tests](#tests)  
+  [Questions](#questions)  
+   
 
+
+  <a name="installation"/>
   ## Installation
   ${answers.installation}
-
+  <a name="usage"/>
   ## Usage
   ${answers.usage}
-
+  <a name="license"/>
   ## License
   ${answers.license}
-
+  <a name="contributing"/>
   ## Contributing
   ${answers.contributing}
-
+  <a name="tests"/>
   ## Tests
   ${answers.tests}
-
+  <a name="questions"/>
   ## Questions
   ${answers.questions}
 `;
