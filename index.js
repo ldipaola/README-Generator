@@ -74,9 +74,10 @@ function generateMD(answers) {
   ${answers.title}
 
   ## Description
+  ${license}
+
   ${answers.description}
 
-  ${license}
 
   ## Table of Contents  
   [Installation](#Installation)  
@@ -114,7 +115,7 @@ promptUser()
   .then(function(answers) {
     const readme = generateMD(answers);
 
-    return writeFileAsync("README.md", readme);
+    return writeFileAsync(__dirname + "/output/README.md", readme);
   })
   .then(function() {
     console.log("Successfully wrote file");
